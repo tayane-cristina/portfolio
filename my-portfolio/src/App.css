@@ -17,13 +17,26 @@
   border-radius: 5px;
 }
 
-a {
+.a-topics {
   text-decoration: none;
   color: white;
+  position: relative;
+  font-weight: 600;
 }
 
-a:hover {
-  color: black;
+.a-topics:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 6px;
+  width: 0;
+  background-color: white;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+}
+
+.a-topics:hover::before {
+  width: 120%;
 }
 
 .icon {

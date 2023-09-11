@@ -29,9 +29,9 @@ const Home = () => {
                     </li>
                 </ul>
                 <ul className="ul-header">
-                    <li className="li-home"><a href="#home">Home</a></li>
-                    <li className="li-home"><a href="#About">About</a></li>
-                    <li className="li-home"><a href="#Projects">Projects</a></li>
+                    <li className="li-home"><a className="a-topics" href="#home">Home</a></li>
+                    <li className="li-home"><a className="a-topics" href="#About">About</a></li>
+                    <li className="li-home"><a className="a-topics" href="#Projects">Projects</a></li>
                 </ul>
             </nav>
         </div>
