@@ -1,9 +1,8 @@
 import './App.css';
 import About from './components/About';
-import Contacts from './components/Contacts';
-import Experience from './components/Experience';
 import Home from './components/Home';
 import Projects from './components/Projects';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -11,8 +10,7 @@ function App() {
       <Home />
       <About />
       <Projects />
-      <Experience />
-      <Contacts />
+      <Footer />
     </div>
   );
 }

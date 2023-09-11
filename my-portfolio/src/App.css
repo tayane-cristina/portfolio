@@ -1,9 +1,11 @@
 .App {
   text-align: center;
   font-family: Arial;
+  background-color: rgba(0, 0, 0, 0.932);
+  color: white;
 }
 
-/*Página inicial*/
+/* ------------------- Página inicial ----------------------*/
 .li-home {
   list-style: none;
   margin-right: 7rem;
@@ -12,8 +14,18 @@
   border-radius: 5px;
 }
 
-.li-home:hover {
-  text-decoration: underline 4px white;
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
   
 }
 
@@ -28,7 +40,6 @@
 nav {
   margin: 0;
   height: 7vh;
-  box-shadow: 1px 5px 5px rgb(130, 128, 131);
   background-color: rgb(190, 15, 190);
   color: white;
 }
@@ -46,13 +57,21 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 40rem;
-  height: 30rem;
+  width: 70%;
+  height: 10rem;
+
   
 }
 
+.presentation-text{
+  font-size: 35px;
+  text-align: start;
+  
+  width: 50%;
+}
+
 .principal-title {
-  align-self: baseline;
+  align-self:flex-start;
   margin-left: 10px;
   font-size: 55px;
 }
@@ -65,25 +84,28 @@ p {
   color: rgb(190, 15, 190);
 }
 
-
-
-.presentation-in-image {
-  width: 40rem;
-  height: 25rem;
-  
-  
-} 
-
-img {
-  width: 100%;
-  height: 30rem;
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  width: 20%;
 }
+
+.contacts-li {
+  list-style: none;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: row;
+}
+
 
 .header-buttons {
   display: flex;
   flex-direction: row;
- 
-  align-items: center;
+  align-items: baseline;
   
 }
 
@@ -103,7 +125,8 @@ button{
 }
 
 .learn-more:hover {
-  border-color: black;
+  background-color: black;
+  color: rgb(190, 15, 190);
 }
 
 .get-contact {
@@ -115,60 +138,72 @@ button{
   color: rgb(190, 15, 190);
 }
 
-/*About*/
+/* --------------------- About ------------------------*/
 .full-page {
   height: 100vh;
-  background-color: rgba(204, 98, 204, 0.349);
-}
-
-.alternative-full-page {
-  background-color: white;
-  height: 100vh;
-}
-
-.medium-page {
-  height: 80vh;
-  background-color: rgb(190, 15, 190);
-}
-
-.curt-page {
-  background-color: black;
-  color: white;
-  height: 30vh;
-}
-
-.ul-cards {
-
-  height: 98%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-}
-
-.li-cards {
-  list-style: none;
-  width: 25%;
-  height: 30%;
-  margin: 35px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: 35px;
-  border: 3px solid white;
   
 }
 
-.principal-title-about {
-  margin-top: 35px;
+li {
+  list-style: none;
 }
 
-/*PROJECTS*/
+.ul-about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+}
+
+.li-about-img {
+  width: 30%;
+}
+
+.li-about-text {
+  width: 40%;
+}
+
+.ability {
+  width: 90px;
+  height: 90px;
+}
+
+.ability-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.content-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h2-about-me {
+  font-size: 40px;
+  color: rgb(190, 15, 190);
+}
+
+.img-me {
+  border-radius: 25% 60%;
+}
+
+/* ------------- PROJECTS --------------------*/
+.alternative-full-page {
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
 
 .project-cards {
-  height: 100%;
+  height: 70%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -209,5 +244,20 @@ button{
   background-color: rgb(190, 15, 190);
   color: white;
 }
+
+/*------------ footer -------------*/
+
+footer {
+  background-color: aliceblue;
+  color: black;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  height: 5vh;
+  text-align: center;
+
+}
+
+
 
 
