@@ -11,6 +11,9 @@ function App() {
       <About />
       <Projects />
       <Footer />
+
+      ola
+      
     </div>
   );
 }
