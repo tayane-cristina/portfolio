@@ -4,15 +4,19 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Footer from './components/Footer'
 import Quiz from './components/projects/quiz/Quiz';
+import PizzaGhost from './components/projects/pizzaGhost/PizzaGhost';
+
+/*
+  <Home />
+  <About />
+  <Projects />
+  <Footer />
+*/
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <About />
-      <Projects />
-      <Footer />
-      <Quiz />
+      <PizzaGhost />
     </div>
   );
 }
