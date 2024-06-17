@@ -1,0 +1,37 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "displayName": "Calabresa",
+            "prices": [
+                {"size": 25, "price": 20.00},
+                {"size": 45, "price": 40.00},
+                {"size": 60, "price": 60.00}
+            ],
+            "rate": 5,
+            "description": "Pizza de calabresa com queijo, e fatias de cebola, uma pitada de orégano"
+        },
+        {
+            "id": 2,
+            "displayName": "Frango com Catupiry",
+            "prices": [
+                {"size": 25, "price": 20.00},
+                {"size": 45, "price": 40.00},
+                {"size": 60, "price": 60.00}
+            ],
+            "rate": 5,
+            "description": "Pizza de frango, recheada com catupiry, cebola, e azeitonas"
+        },
+        {
+            "id": 3,
+            "displayName": "4 queijos",
+            "prices": [
+                {"size": 25, "price": 20.00},
+                {"size": 45, "price": 40.00},
+                {"size": 60, "price": 60.00}
+            ],
+            "rate": 5,
+            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+        }
+    ]
+}

@@ -1,9 +1,8 @@
 import './App.css';
-import About from './components/About';
-import Home from './components/Home';
-import Projects from './components/Projects';
-import Footer from './components/Footer'
-import Quiz from './components/projects/quiz/Quiz';
+import About from './components/projects/pages/About';
+import Home from './components/projects/pages/Home';
+import Projects from './components/projects/pages/Projects';
+import Footer from './components/projects/pages/Footer'
 import PizzaGhost from './components/projects/pizzaGhost/PizzaGhost';
 
 /*

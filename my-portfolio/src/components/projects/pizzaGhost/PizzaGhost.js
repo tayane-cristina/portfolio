@@ -1,10 +1,28 @@
 import React from 'react';
 import './PizzaGhost.css'
+import Footer from '../pages/Footer';
+import { useState, useEffect } from 'react';
 
 const PizzaGhost = () => {
+
+    const url = "http://localhost:3000/products"
+
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+        async function fetchData() {
+
+            const res = await fetch(url);
+            const data = await res.json();
+
+            setProducts(data)
+        }
+    }, [])
+
+    console.log(products)
+
   return (
     <div className='pizzaghost principal-div'>
-
         <header className='pizzaghost-header'>
             <h1>Pizza GHOST</h1>
             <section className='pizzaghost-search'>
@@ -99,30 +117,18 @@ const PizzaGhost = () => {
                                 <span><strong>Pizza</strong></span>
                                 <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
                             </li>
+                            <li className='pizzaghost-li-all'>
+                                <img className='pizzaghost-li-all-img' src='https://img77.uenicdn.com/image/upload/v1612909110/business/f919def1-92cc-4aaa-906d-07447acb469b.jpg' alt='pizza' />
+                                <span><strong>Pizza</strong></span>
+                                <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
+                            </li>
                         </ul>
                     </section>
                 </section>
             </main> 
         </div>
 
-        <footer>
-            <section className='pizzaghost-social'>
-                <ul className='pizzaghost-ul-social'>
-                    <li className='pizzaghost-li-social'>Facebook</li>
-                    <li className='pizzaghost-li-social'>Instagram</li>
-                    <li className='pizzaghost-li-social'>WhatsApp</li>
-                </ul>
-            </section>
-
-            <section className='pizzaghost-where'>
-                <p>Nos encontre em...</p>
-            </section>
-
-            <section className='pizzaghost-footer-logo'>
-                <img src='' alt=''/>
-            </section>
-        </footer>
-      
+        <Footer />
     </div>
   );
 };

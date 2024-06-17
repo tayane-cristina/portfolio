@@ -2,10 +2,11 @@
 
 .pizzaghost{
     font-family: "Jost", sans-serif;
+    background-color: white;
+    color: black;
 }
 
 .pizzaghost-content {
-    background-color: rgb(71, 68, 68);
     display: flex;
     flex-direction: row;
 }
@@ -13,21 +14,17 @@
 .pizzaghost-main {
     background-color: rgb(34, 31, 34);
     width: 80%;
-    border: 3px solid blue;
 }
 
 /*Section header elements*/
 .pizzaghost-header {
     height: 300px;
+    background-color: rgb(194, 15, 15);
+    color: goldenrod;
 }
 
 .pizzaghost-header h1 {
-    color: rgb(196, 10, 10);
-    font-size: 40px;
-}
-
-.pizzaghost-search {
-
+    font-size: 60px;
 }
 
 .pizzaghost-input-search{
@@ -49,12 +46,9 @@
 /*Section menu navigator*/
 
 .pizzaghost-menu-navigator {
-    border: 5px solid rgb(170, 6, 6);
     width: 20%;
-}
-
-.pizzaghost-thebest{
-    border: 5px solid lawngreen;
+    height: 50%;
+    position: static;
 }
 
 /*Elemenst the best section*/
@@ -69,14 +63,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: brown;
 }
 
 .pizzaghost-li-thebest {
     margin: 10px;
     display: flex;
     flex-direction: column;
-    border: 5px solid khaki;
     justify-content: space-around;
 
 }
@@ -100,7 +92,6 @@
 
 /*Elemnts all plates section*/
 .pizzaghost-all-section {
-    border: 8px solid goldenrod;
     display: flex;
     flex-direction: column;
 }
@@ -114,19 +105,17 @@
 }
 
 .pizzaghost-li-all {
-    width: 40%;
-    height: 200px;
-    background-color: forestgreen;
+    width: 30%;
+    height: 30%;
     margin: 10px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
 }
 
 .pizzaghost-li-all-img {
     align-self: center;
-    width: 10rem;
-    height: 10rem;
+    width: 80% ;
+    height: 300px;
 }
 
 
