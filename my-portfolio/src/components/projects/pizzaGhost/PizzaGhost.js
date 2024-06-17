@@ -1,88 +1,109 @@
 import React from 'react';
+import './PizzaGhost.css'
 
 const PizzaGhost = () => {
   return (
     <div className='pizzaghost principal-div'>
 
-        <header>
-            <h1>Header com o título do restaurante</h1>
+        <header className='pizzaghost-header'>
+            <h1>Pizza GHOST</h1>
             <section className='pizzaghost-search'>
-                <input type='text'></input>
-                <button type='button'>Buscar</button>
+                <input className='pizzaghost-input-search' type='text' placeholder='Pizza de...'></input>
+                <button className='pizzaghost-search-button' type='button'>Buscar</button>
             </section>
         </header>
 
-        <aside className='pizzaghost-menu-navigator'>
-            <h2>Menu de navegação do site</h2>
+        <div className='pizzaghost-content'>
+            <aside className='pizzaghost-menu-navigator'>
+                <h2>Menu de navegação do site</h2>
 
-            <ul className='pizzaghost-ul-service'>
-                <li className='pizzaghost-li-service'>Item</li>
-                <li className='pizzaghost-li-service'>Item</li>
-                <li className='pizzaghost-li-service'>Item</li>
-                <li className='pizzaghost-li-service'>Item</li>
-                <li className='pizzaghost-li-service'>Item</li>
-            </ul>
-        </aside>
+                <ul className='pizzaghost-ul-service'>
+                    <li className='pizzaghost-li-service'>Item</li>
+                    <li className='pizzaghost-li-service'>Item</li>
+                    <li className='pizzaghost-li-service'>Item</li>
+                    <li className='pizzaghost-li-service'>Item</li>
+                    <li className='pizzaghost-li-service'>Item</li>
+                </ul>
+            </aside>
 
-        <section className='pizzaghost-maketing'>
-            <button type='button'>Anterior</button>
-            <img src='' alt='imagem de pessoas em pizzaria'/>
-            <button type='button'>Próximo</button>
-        </section>
+            <main className='pizzaghost-main'>
+                <section className='pizzaghost-maketing'>
+                    <button className='pizzaghost-marketing-button' type='button'>-</button>
+                    <img className='pizzaghost-marketing-img' src='https://www.copaenergia.com.br/wp-content/uploads/2023/11/iStock-468515806.jpg' alt='imagem de pessoas em pizzaria'/>
+                    <button className='pizzaghost-marketing-button' type='button'>+</button>
+                </section>
 
-        <section className='pizzaghost-thebest'>
-            <ul className='pizzaghost-ul-thebest'>
-                <li className='pizzaghost-li-thebest-img'><img src='' alt='IMG pizza mais vendida'/></li>
-                <li className='pizzaghost-li-thebest-img'><img src='' alt='IMG pizza mais vendida'/></li>
-                <li className='pizzaghost-li-thebest-img'><img src='' alt='IMG pizza mais vendida'/></li>
-                <li className='pizzaghost-li-thebest-img'><img src='' alt='IMG pizza mais vendida'/></li>
-                <li className='pizzaghost-li-thebest-img'><img src='' alt='IMG pizza mais vendida'/></li>
-            </ul>
-        </section>
+                <section className='pizzaghost-thebest'>
+                    <h3>Top 5</h3>
+                    <ul className='pizzaghost-ul-thebest'>
+                        <li className='pizzaghost-li-thebest'>
+                            <img className='pizzaghost-li-thebest-img' src='https://bolichelitoralplaza.com.br/wp-content/uploads/2017/01/pizza.jpg' alt='IMG pizza mais vendida'/>
+                            <span><strong>Pizza name</strong></span>
+                            <p>Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet </p>
+                        </li>
+                        <li className='pizzaghost-li-thebest'>
+                            <img className='pizzaghost-li-thebest-img' src='https://bolichelitoralplaza.com.br/wp-content/uploads/2017/01/pizza.jpg' alt='IMG pizza mais vendida'/>
+                            <span><strong>Pizza name</strong></span>
+                            <p>Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet </p>
+                        </li>
+                        <li className='pizzaghost-li-thebest'>
+                            <img className='pizzaghost-li-thebest-img' src='https://bolichelitoralplaza.com.br/wp-content/uploads/2017/01/pizza.jpg' alt='IMG pizza mais vendida'/>
+                            <span><strong>Pizza name</strong></span>
+                            <p>Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet </p>
+                        </li>
+                        <li className='pizzaghost-li-thebest'>
+                            <img className='pizzaghost-li-thebest-img' src='https://bolichelitoralplaza.com.br/wp-content/uploads/2017/01/pizza.jpg' alt='IMG pizza mais vendida'/>
+                            <span><strong>Pizza name</strong></span>
+                            <p>Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet </p>
+                        </li>
+                        <li className='pizzaghost-li-thebest'>
+                            <img className='pizzaghost-li-thebest-img' src='https://bolichelitoralplaza.com.br/wp-content/uploads/2017/01/pizza.jpg' alt='IMG pizza mais vendida'/>
+                            <span><strong>Pizza name</strong></span>
+                            <p>Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet </p>
+                        </li>
+                    </ul>
+                </section>
 
-        <main>
-            <h3>Todas os pratos</h3>
-           <select>
-            <option>Salgadas</option>
-            <option>Doces</option>
-            <option>Gourmet</option>
-           </select>
+                <section className='pizzaghost-all-section'>
+                    <h4>Todas os pratos</h4>
+                    <select>
+                        <option>Salgadas</option>
+                        <option>Doces</option>
+                        <option>Gourmet</option>
+                    </select>
 
-           <section className='pizzaghost-all'>
-            <ul className='pizzaghost-ul-all'>
-                <li className='pizzaghost-li-all'>
-                    <img src='' alt='pizza' />
-                    <span><strong>Pizza</strong></span>
-                    <p>Description</p>
-                </li>
-                <li className='pizzaghost-li-all'>
-                    <img src='' alt='pizza' />
-                    <span><strong>Pizza</strong></span>
-                    <p>Description</p>
-                </li>
-                <li className='pizzaghost-li-all'>
-                    <img src='' alt='pizza' />
-                    <span><strong>Pizza</strong></span>
-                    <p>Description</p>
-                </li>
-                <li className='pizzaghost-li-all'>
-                    <img src='' alt='pizza' />
-                    <span><strong>Pizza</strong></span>
-                    <p>Description</p>
-                </li>
-                <li className='pizzaghost-li-all'>
-                    <img src='' alt='pizza' />
-                    <span><strong>Pizza</strong></span>
-                    <p>Description</p>
-                </li>
-                <li className='pizzaghost-li-all'>
-                    <img src='' alt='pizza' />
-                    <span><strong>Pizza</strong></span>
-                    <p>Description</p>
-                </li>
-            </ul>
-           </section>
-        </main>
+                    <section className='pizzaghost-all'>
+                        <ul className='pizzaghost-ul-all'>
+                            <li className='pizzaghost-li-all'>
+                                <img className='pizzaghost-li-all-img' src='https://img77.uenicdn.com/image/upload/v1612909110/business/f919def1-92cc-4aaa-906d-07447acb469b.jpg' alt='pizza' />
+                                <span><strong>Pizza</strong></span>
+                                <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
+                            </li>
+                            <li className='pizzaghost-li-all'>
+                                <img className='pizzaghost-li-all-img' src='https://img77.uenicdn.com/image/upload/v1612909110/business/f919def1-92cc-4aaa-906d-07447acb469b.jpg' alt='pizza' />
+                                <span><strong>Pizza</strong></span>
+                                <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
+                            </li>
+                            <li className='pizzaghost-li-all'>
+                                <img className='pizzaghost-li-all-img' src='https://img77.uenicdn.com/image/upload/v1612909110/business/f919def1-92cc-4aaa-906d-07447acb469b.jpg' alt='pizza' />
+                                <span><strong>Pizza</strong></span>
+                                <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
+                            </li>
+                            <li className='pizzaghost-li-all'>
+                                <img className='pizzaghost-li-all-img' src='https://img77.uenicdn.com/image/upload/v1612909110/business/f919def1-92cc-4aaa-906d-07447acb469b.jpg' alt='pizza' />
+                                <span><strong>Pizza</strong></span>
+                                <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
+                            </li>
+                            <li className='pizzaghost-li-all'>
+                                <img className='pizzaghost-li-all-img' src='https://img77.uenicdn.com/image/upload/v1612909110/business/f919def1-92cc-4aaa-906d-07447acb469b.jpg' alt='pizza' />
+                                <span><strong>Pizza</strong></span>
+                                <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            </main> 
+        </div>
 
         <footer>
             <section className='pizzaghost-social'>

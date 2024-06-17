@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.pizzaghost{
+    font-family: "Jost", sans-serif;
+}
+
+.pizzaghost-content {
+    background-color: rgb(71, 68, 68);
+    display: flex;
+    flex-direction: row;
+}
+
+.pizzaghost-main {
+    background-color: rgb(34, 31, 34);
+    width: 80%;
+    border: 3px solid blue;
+}
+
+/*Section header elements*/
+.pizzaghost-header {
+    height: 300px;
+}
+
+.pizzaghost-header h1 {
+    color: rgb(196, 10, 10);
+    font-size: 40px;
+}
+
+.pizzaghost-search {
+
+}
+
+.pizzaghost-input-search{
+    width: 50%;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.pizzaghost-search-button {
+    width: 7%;
+    font-size: 14px;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+}
+
+/*Section menu navigator*/
+
+.pizzaghost-menu-navigator {
+    border: 5px solid rgb(170, 6, 6);
+    width: 20%;
+}
+
+.pizzaghost-thebest{
+    border: 5px solid lawngreen;
+}
+
+/*Elemenst the best section*/
+.pizzaghost-li-thebest-img {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pizzaghost-ul-thebest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: brown;
+}
+
+.pizzaghost-li-thebest {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid khaki;
+    justify-content: space-around;
+
+}
+
+/*MARKETING ELEMENTS SECTION*/
+.pizzaghost-marketing-img {
+    width: 80%;
+    height: 40rem;
+}
+
+.pizzaghost-maketing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pizzaghost-marketing-button {
+    width: 50px;
+    height: 50px;
+}
+
+/*Elemnts all plates section*/
+.pizzaghost-all-section {
+    border: 8px solid goldenrod;
+    display: flex;
+    flex-direction: column;
+}
+
+.pizzaghost-ul-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pizzaghost-li-all {
+    width: 40%;
+    height: 200px;
+    background-color: forestgreen;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.pizzaghost-li-all-img {
+    align-self: center;
+    width: 10rem;
+    height: 10rem;
+}
+
+
+
+
+
