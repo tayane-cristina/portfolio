@@ -37,88 +37,88 @@
             "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
         },
         {
-            "id": 3,
-            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
-            "displayName": "4 queijos",
+            "id": 4,
+            "image": "https://i0.statig.com.br/bancodeimagens/3n/0t/fy/3n0tfy3kn0jv6lkafc4cyc41u.jpg",
+            "displayName": "Margherita",
             "prices": [
                 {"size": 25, "price": 20.00},
                 {"size": 45, "price": 40.00},
                 {"size": 60, "price": 60.00}
             ],
-            "rate": 4,
-            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+            "rate": 2,
+            "description": "Uma clássica italiana com molho de tomate fresco, mozzarella derretida e folhas de manjericão."
         },
         {
-            "id": 3,
-            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
-            "displayName": "4 queijos",
+            "id": 5,
+            "image": "https://thumbs.dreamstime.com/b/pizza-pepperoni-de-rec%C3%A9m-fabricada-com-enchido-e-queijo-que-sai-da-crosta-pouco-saud%C3%A1vel-mas-delicioso-uma-popular-variedade-273757237.jpg",
+            "displayName": "Pepperoni",
             "prices": [
                 {"size": 25, "price": 20.00},
                 {"size": 45, "price": 40.00},
                 {"size": 60, "price": 60.00}
             ],
-            "rate": 4,
-            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+            "rate": 3,
+            "description": "Uma favorita dos fãs com fatias generosas de pepperoni picante sobre uma camada de queijo mozzarella."
         },
         {
-            "id": 3,
-            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
-            "displayName": "4 queijos",
+            "id": 6,
+            "image": "https://s2-receitas.glbimg.com/sP3pVF5XK9N8N_0U2g-gdvPhkyw=/0x0:620x413/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/A/V/03IHABTT2ZNMQzXZD4mQ/pizza-vegetariana.jpg",
+            "displayName": "Vegetariana",
             "prices": [
                 {"size": 25, "price": 20.00},
                 {"size": 45, "price": 40.00},
                 {"size": 60, "price": 60.00}
             ],
-            "rate": 4,
-            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+            "rate": 5,
+            "description": "Um mix colorido de vegetais frescos, incluindo pimentões, cogumelos, cebolas e azeitonas."
         },
         {
-            "id": 3,
-            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
-            "displayName": "4 queijos",
+            "id": 7,
+            "image": "https://www.ogastronomo.com.br/upload/389528334-curiosidades-sobre-a-pizza-portuguesa.jpg",
+            "displayName": "Portuguesa",
             "prices": [
                 {"size": 25, "price": 20.00},
                 {"size": 45, "price": 40.00},
                 {"size": 60, "price": 60.00}
             ],
             "rate": 4,
-            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+            "description": "Coberta com presunto, ovos, cebola, pimentão e azeitonas."
         },
         {
-            "id": 3,
-            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
-            "displayName": "4 queijos",
+            "id": 8,
+            "image": "https://www.sabornamesa.com.br/media/k2/items/cache/14985840dca330e3b808aa792fa422f9_XL.jpg",
+            "displayName": "Chocolate",
             "prices": [
                 {"size": 25, "price": 20.00},
                 {"size": 45, "price": 40.00},
                 {"size": 60, "price": 60.00}
             ],
-            "rate": 4,
-            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+            "rate": 3,
+            "description": "Uma sobremesa indulgente com cobertura de chocolate derretido, morangos e raspas de chocolate."
         },
         {
-            "id": 3,
-            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
-            "displayName": "4 queijos",
+            "id": 9,
+            "image": "https://receitasdepesos.com.br/wp-content/uploads/2023/08/shutterstock_84904861.jpg",
+            "displayName": "Havaiana",
             "prices": [
                 {"size": 25, "price": 20.00},
                 {"size": 45, "price": 40.00},
                 {"size": 60, "price": 60.00}
             ],
-            "rate": 4,
-            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+            "rate": 3,
+            "description": "Uma combinação doce e salgada de presunto e pedaços suculentos de abacaxi."
         },
         {
-            "id": 3,
-            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
-            "displayName": "4 queijos",
+            "id": 10,
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/0d/eb/00/fe/pizza-de-carne-seca-e.jpg",
+            "displayName": "Carne Seca com Catupiry",
             "prices": [
                 {"size": 25, "price": 20.00},
                 {"size": 45, "price": 40.00},
                 {"size": 60, "price": 60.00}
             ],
             "rate": 4,
-            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+            "description": "Uma delícia brasileira com carne seca desfiada e catupiry cremoso, temperada com cebolas roxas."
         }
     ]
 }
