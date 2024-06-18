@@ -17,12 +17,13 @@ const PizzaGhost = () => {
 
             setProducts(data)
         }
-    }, [])
-
+        fetchData()
+    },[])
+        
     console.log(products)
 
   return (
-    <div className='pizzaghost principal-div'>
+      <div className='pizzaghost principal-div'>
         <header className='pizzaghost-header'>
             <h1>Pizza GHOST</h1>
             <section className='pizzaghost-search'>
@@ -34,7 +35,7 @@ const PizzaGhost = () => {
         <div className='pizzaghost-content'>
             <aside className='pizzaghost-menu-navigator'>
                 <h2>Menu de navegação do site</h2>
-
+            
                 <ul className='pizzaghost-ul-service'>
                     <li className='pizzaghost-li-service'>Item</li>
                     <li className='pizzaghost-li-service'>Item</li>
@@ -92,36 +93,14 @@ const PizzaGhost = () => {
 
                     <section className='pizzaghost-all'>
                         <ul className='pizzaghost-ul-all'>
-                            <li className='pizzaghost-li-all'>
-                                <img className='pizzaghost-li-all-img' src='https://img77.uenicdn.com/image/upload/v1612909110/business/f919def1-92cc-4aaa-906d-07447acb469b.jpg' alt='pizza' />
-                                <span><strong>Pizza</strong></span>
-                                <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
-                            </li>
-                            <li className='pizzaghost-li-all'>
-                                <img className='pizzaghost-li-all-img' src='https://img77.uenicdn.com/image/upload/v1612909110/business/f919def1-92cc-4aaa-906d-07447acb469b.jpg' alt='pizza' />
-                                <span><strong>Pizza</strong></span>
-                                <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
-                            </li>
-                            <li className='pizzaghost-li-all'>
-                                <img className='pizzaghost-li-all-img' src='https://img77.uenicdn.com/image/upload/v1612909110/business/f919def1-92cc-4aaa-906d-07447acb469b.jpg' alt='pizza' />
-                                <span><strong>Pizza</strong></span>
-                                <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
-                            </li>
-                            <li className='pizzaghost-li-all'>
-                                <img className='pizzaghost-li-all-img' src='https://img77.uenicdn.com/image/upload/v1612909110/business/f919def1-92cc-4aaa-906d-07447acb469b.jpg' alt='pizza' />
-                                <span><strong>Pizza</strong></span>
-                                <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
-                            </li>
-                            <li className='pizzaghost-li-all'>
-                                <img className='pizzaghost-li-all-img' src='https://img77.uenicdn.com/image/upload/v1612909110/business/f919def1-92cc-4aaa-906d-07447acb469b.jpg' alt='pizza' />
-                                <span><strong>Pizza</strong></span>
-                                <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
-                            </li>
-                            <li className='pizzaghost-li-all'>
-                                <img className='pizzaghost-li-all-img' src='https://img77.uenicdn.com/image/upload/v1612909110/business/f919def1-92cc-4aaa-906d-07447acb469b.jpg' alt='pizza' />
-                                <span><strong>Pizza</strong></span>
-                                <p>Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet Lorem ipsum dolor set amet</p>
-                            </li>
+                            {products.map((item, index) => (
+                                <li className='pizzaghost-li-all' key={index}>
+                                    <img className='pizzaghost-li-all-img' src={item.image} alt={`Pizza de ${item.displayName}`} />
+                                    <p><strong>{item.displayName}</strong></p>
+                                    <p>{item.description}</p>
+                                </li>
+                            ))}
+                           
                         </ul>
                     </section>
                 </section>

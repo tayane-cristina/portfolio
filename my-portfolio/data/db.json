@@ -2,6 +2,7 @@
     "products": [
         {
             "id": 1,
+            "image": "https://cdn0.tudoreceitas.com/pt/posts/9/8/3/pizza_calabresa_e_mussarela_4389_600.jpg",
             "displayName": "Calabresa",
             "prices": [
                 {"size": 25, "price": 20.00},
@@ -9,10 +10,11 @@
                 {"size": 60, "price": 60.00}
             ],
             "rate": 5,
-            "description": "Pizza de calabresa com queijo, e fatias de cebola, uma pitada de orégano"
+            "description": "Pizza de calabresa com queijo, rodelas de cebola, e uma pitada de orégano"
         },
         {
             "id": 2,
+            "image": "https://www.paollarestaurante.com.br/uploads/images/2019/08/pizza-frango-com-catupiry-1565140749.jpg",
             "displayName": "Frango com Catupiry",
             "prices": [
                 {"size": 25, "price": 20.00},
@@ -24,6 +26,7 @@
         },
         {
             "id": 3,
+            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
             "displayName": "4 queijos",
             "prices": [
                 {"size": 25, "price": 20.00},
