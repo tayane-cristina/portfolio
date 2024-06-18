@@ -21,7 +21,7 @@
                 {"size": 45, "price": 40.00},
                 {"size": 60, "price": 60.00}
             ],
-            "rate": 5,
+            "rate": 1,
             "description": "Pizza de frango, recheada com catupiry, cebola, e azeitonas"
         },
         {
@@ -33,7 +33,91 @@
                 {"size": 45, "price": 40.00},
                 {"size": 60, "price": 60.00}
             ],
-            "rate": 5,
+            "rate": 4,
+            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+        },
+        {
+            "id": 3,
+            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
+            "displayName": "4 queijos",
+            "prices": [
+                {"size": 25, "price": 20.00},
+                {"size": 45, "price": 40.00},
+                {"size": 60, "price": 60.00}
+            ],
+            "rate": 4,
+            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+        },
+        {
+            "id": 3,
+            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
+            "displayName": "4 queijos",
+            "prices": [
+                {"size": 25, "price": 20.00},
+                {"size": 45, "price": 40.00},
+                {"size": 60, "price": 60.00}
+            ],
+            "rate": 4,
+            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+        },
+        {
+            "id": 3,
+            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
+            "displayName": "4 queijos",
+            "prices": [
+                {"size": 25, "price": 20.00},
+                {"size": 45, "price": 40.00},
+                {"size": 60, "price": 60.00}
+            ],
+            "rate": 4,
+            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+        },
+        {
+            "id": 3,
+            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
+            "displayName": "4 queijos",
+            "prices": [
+                {"size": 25, "price": 20.00},
+                {"size": 45, "price": 40.00},
+                {"size": 60, "price": 60.00}
+            ],
+            "rate": 4,
+            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+        },
+        {
+            "id": 3,
+            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
+            "displayName": "4 queijos",
+            "prices": [
+                {"size": 25, "price": 20.00},
+                {"size": 45, "price": 40.00},
+                {"size": 60, "price": 60.00}
+            ],
+            "rate": 4,
+            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+        },
+        {
+            "id": 3,
+            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
+            "displayName": "4 queijos",
+            "prices": [
+                {"size": 25, "price": 20.00},
+                {"size": 45, "price": 40.00},
+                {"size": 60, "price": 60.00}
+            ],
+            "rate": 4,
+            "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
+        },
+        {
+            "id": 3,
+            "image": "https://alimentos10.com.br/wp-content/uploads/2023/06/imeretian-khachapuri-cheese-lemon-side-view-1.jpg",
+            "displayName": "4 queijos",
+            "prices": [
+                {"size": 25, "price": 20.00},
+                {"size": 45, "price": 40.00},
+                {"size": 60, "price": 60.00}
+            ],
+            "rate": 4,
             "description": "Pizza de calabresa com queijo mussarela, provolone, gorgonzola e parmesão"
         }
     ]

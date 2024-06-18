@@ -8,6 +8,7 @@ const PizzaGhost = () => {
     const url = "http://localhost:3000/products"
 
     const [products, setProducts] = useState([]);
+    const theBestFlavors = products.filter((flavor) => flavor.rate >= 4)
 
     useEffect(() => {
         async function fetchData() {
@@ -55,31 +56,13 @@ const PizzaGhost = () => {
                 <section className='pizzaghost-thebest'>
                     <h3>Top 5</h3>
                     <ul className='pizzaghost-ul-thebest'>
-                        <li className='pizzaghost-li-thebest'>
-                            <img className='pizzaghost-li-thebest-img' src='https://bolichelitoralplaza.com.br/wp-content/uploads/2017/01/pizza.jpg' alt='IMG pizza mais vendida'/>
-                            <span><strong>Pizza name</strong></span>
-                            <p>Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet </p>
-                        </li>
-                        <li className='pizzaghost-li-thebest'>
-                            <img className='pizzaghost-li-thebest-img' src='https://bolichelitoralplaza.com.br/wp-content/uploads/2017/01/pizza.jpg' alt='IMG pizza mais vendida'/>
-                            <span><strong>Pizza name</strong></span>
-                            <p>Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet </p>
-                        </li>
-                        <li className='pizzaghost-li-thebest'>
-                            <img className='pizzaghost-li-thebest-img' src='https://bolichelitoralplaza.com.br/wp-content/uploads/2017/01/pizza.jpg' alt='IMG pizza mais vendida'/>
-                            <span><strong>Pizza name</strong></span>
-                            <p>Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet </p>
-                        </li>
-                        <li className='pizzaghost-li-thebest'>
-                            <img className='pizzaghost-li-thebest-img' src='https://bolichelitoralplaza.com.br/wp-content/uploads/2017/01/pizza.jpg' alt='IMG pizza mais vendida'/>
-                            <span><strong>Pizza name</strong></span>
-                            <p>Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet </p>
-                        </li>
-                        <li className='pizzaghost-li-thebest'>
-                            <img className='pizzaghost-li-thebest-img' src='https://bolichelitoralplaza.com.br/wp-content/uploads/2017/01/pizza.jpg' alt='IMG pizza mais vendida'/>
-                            <span><strong>Pizza name</strong></span>
-                            <p>Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet Lorem ipsum set amet </p>
-                        </li>
+                        {theBestFlavors.map((theBest, index) => (
+                            <li className='pizzaghost-li-thebest' key={index}>
+                                <img src={theBest.image} alt={`Pizza de ${theBest.displayName}`} className='pizzaghost-li-thebest-img'/>
+                                <p><strong>{theBest.displayName}</strong></p>
+                                <p>{theBest.description}</p>
+                            </li>
+                        ))}
                     </ul>
                 </section>
 
