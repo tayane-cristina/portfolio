@@ -26,7 +26,10 @@ const PizzaGhost = () => {
   return (
       <div className='pizzaghost principal-div'>
         <header className='pizzaghost-header'>
-            <h1>Pizza GHOST</h1>
+            <section className='pizzaghost-section-logo'>
+                <img className='pizzaghost-logo' src='https://cdn-icons-png.flaticon.com/128/4058/4058751.png' alt='logo'/>
+                <h1>Pizza GHOST</h1>
+            </section>
             <section className='pizzaghost-search'>
                 <input className='pizzaghost-input-search' type='text' placeholder='Pizza de...'></input>
                 <button className='pizzaghost-search-button' type='button'>Buscar</button>
@@ -35,14 +38,17 @@ const PizzaGhost = () => {
 
         <div className='pizzaghost-content'>
             <aside className='pizzaghost-menu-navigator'>
-                <h2>Menu de navegação do site</h2>
+                <div className='menu-navigatore-header'>
+                    <img className='menu-icon-img' src='https://cdn-icons-png.flaticon.com/128/4294/4294414.png' alt='menu icon'/>
+                    <h2>Menu</h2>
+                </div>
             
                 <ul className='pizzaghost-ul-service'>
-                    <li className='pizzaghost-li-service'>Item</li>
-                    <li className='pizzaghost-li-service'>Item</li>
-                    <li className='pizzaghost-li-service'>Item</li>
-                    <li className='pizzaghost-li-service'>Item</li>
-                    <li className='pizzaghost-li-service'>Item</li>
+                    <li className='pizzaghost-li-service'>Início</li>
+                    <li className='pizzaghost-li-service'>Cárdapio</li>
+                    <li className='pizzaghost-li-service'>Promoções</li>
+                    <li className='pizzaghost-li-service'>Eventos</li>
+                    <li className='pizzaghost-li-service'>Sobre nós</li>
                 </ul>
             </aside>
 
@@ -79,8 +85,10 @@ const PizzaGhost = () => {
                             {products.map((item, index) => (
                                 <li className='pizzaghost-li-all' key={index}>
                                     <img className='pizzaghost-li-all-img' src={item.image} alt={`Pizza de ${item.displayName}`} />
-                                    <p><strong>{item.displayName}</strong></p>
-                                    <p>{item.description}</p>
+                                    <div className='pizzaghost-li-theroy'>
+                                        <p><strong>{item.displayName}</strong></p>
+                                        <p>{item.description}</p>
+                                    </div>
                                 </li>
                             ))}
                            
