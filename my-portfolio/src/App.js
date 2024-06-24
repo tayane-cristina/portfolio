@@ -1,4 +1,5 @@
 import './App.css';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import About from './components/projects/pages/About';
 import Home from './components/projects/pages/Home';
 import Projects from './components/projects/pages/Projects';
@@ -15,7 +16,13 @@ import PizzaGhost from './components/projects/pizzaGhost/PizzaGhost';
 function App() {
   return (
     <div className="App">
-      <PizzaGhost />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/pizzaghost' element={<PizzaGhost />}></Route>
+          <Route path='/projects' element={<Projects />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

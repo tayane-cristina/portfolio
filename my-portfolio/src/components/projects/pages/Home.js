@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
     return <div>
         <div className="header-navbar">
@@ -31,7 +33,7 @@ const Home = () => {
                 <ul className="ul-header">
                     <li className="li-home"><a className="a-topics" href="#home">Home</a></li>
                     <li className="li-home"><a className="a-topics" href="#About">About</a></li>
-                    <li className="li-home"><a className="a-topics" href="#Projects">Projects</a></li>
+                    <li className="li-home"><Link to="/projects" className="a-topics" href="#Projects">Projects</Link></li>
                 </ul>
             </nav>
         </div>
@@ -40,8 +42,8 @@ const Home = () => {
                 <h1 className="principal-title">
                     <span className="hello">Hello</span>, I am Tayane Cristina!
                 </h1>
-                <p className="presentation-text">I want to be a Web Developer, I'm 22 years old and I study programming on my own. 
-                    Browse my page and see everything I can do.
+                <p className="presentation-text">I aspire to be a Web Developer. At 22 years old, I am self-taught in programming. Explore my page to discover the full range 
+                    of my capabilities
                 </p>
                 <div className="header-buttons">
                     <button className="learn-more">Learn more</button>
@@ -49,7 +51,6 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        
     </div>
 };
 
